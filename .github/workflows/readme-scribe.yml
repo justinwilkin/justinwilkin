@@ -1,0 +1,37 @@
+name: Update README
+
+# Regenerates README.md from templates/README.md.tpl once a day and on every
+# push. README_SCRIBE_TOKEN is a personal access token, because the default
+# GITHUB_TOKEN queries as the Actions bot and would return the bot's activity
+# instead of this account's.
+on:
+  push:
+    branches: [main]
+    paths: [templates/**, .github/workflows/readme-scribe.yml]
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  markscribe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.README_SCRIBE_TOKEN }}
+        with:
+          template: templates/README.md.tpl
+          writeTo: README.md
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update generated README
+          branch: main
+          commit_user_name: readme-scribe
+          commit_user_email: actions@github.com
+          commit_author: readme-scribe <actions@github.com>
