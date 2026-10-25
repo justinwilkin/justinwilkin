@@ -3,7 +3,6 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 #### What I'm working on
 
 - [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (1 day ago)
-- [runkora/.github](https://github.com/runkora/.github) - Welcome to runkora (1 day ago)
 - [entrhq/stitch](https://github.com/entrhq/stitch) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe. (2 months ago)
 
 #### Latest releases I've contributed to
