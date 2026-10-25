@@ -1,9 +1,13 @@
 name: Update README
 
 # Regenerates README.md from templates/README.md.tpl once a day and on every
-# push. README_SCRIBE_TOKEN is a personal access token, because the default
-# GITHUB_TOKEN queries as the Actions bot and would return the bot's activity
-# instead of this account's.
+# push. README_SCRIBE_TOKEN is a fine-grained personal access token with
+# read-only access to public repositories. The default GITHUB_TOKEN queries as
+# the Actions bot and would return the bot's activity instead of this account's.
+#
+# Every third-party step is pinned to a commit or image digest because the
+# token is passed to it. markscribe runs directly from its image by digest,
+# because muesli/readme-scribe only wraps the image at its mutable latest tag.
 on:
   push:
     branches: [main]
@@ -19,16 +23,15 @@ jobs:
   markscribe:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - uses: muesli/readme-scribe@master
+      - uses: docker://fribbledom/markscribe@sha256:97576ac6779e1be65eb9a11a241f5b873b4eae065cd9a9e1f1241add2cae60f4
         env:
           GITHUB_TOKEN: ${{ secrets.README_SCRIBE_TOKEN }}
         with:
-          template: templates/README.md.tpl
-          writeTo: README.md
+          args: -write README.md templates/README.md.tpl
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 # v5
         with:
           commit_message: Update generated README
           branch: main
