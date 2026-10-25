@@ -6,9 +6,9 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 {{- end}}
 
 #### Latest releases I've contributed to
-{{range recentReleases 3}}{{if not .IsPrivate}}
+{{range recentReleases 3}}
 - [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}) - {{.Description}}
-{{- end}}{{- end}}
+{{- end}}
 
 #### Recent pull requests
 {{range recentPullRequests 5}}

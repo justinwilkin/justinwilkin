@@ -1,9 +1,11 @@
 name: Update README
 
 # Regenerates README.md from templates/README.md.tpl once a day and on every
-# push. README_SCRIBE_TOKEN is a fine-grained personal access token with
-# read-only access to public repositories. The default GITHUB_TOKEN queries as
-# the Actions bot and would return the bot's activity instead of this account's.
+# push. README_SCRIBE_TOKEN is a classic personal access token with no scopes,
+# which limits it to public data, authorised for SSO on runkora. A fine-grained
+# token cannot read stargazers, which markscribe queries for every repo. The
+# default GITHUB_TOKEN queries as the Actions bot and would return the bot's
+# activity instead of this account's.
 #
 # Every third-party step is pinned to a commit or image digest because the
 # token is passed to it. markscribe runs directly from its image by digest,
