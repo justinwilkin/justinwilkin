@@ -2,20 +2,20 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### What I'm working on
 
-- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (1 day ago)
-- [entrhq/stitch](https://github.com/entrhq/stitch) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe. (2 months ago)
+- [runkora/examples](https://github.com/runkora/examples) -  (today)
+- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (today)
 
 #### Latest releases I've contributed to
 
-- [runkora/kora](https://github.com/runkora/kora) ([v0.11.0-rc.3](https://github.com/runkora/kora/releases/tag/v0.11.0-rc.3), 1 day ago) - The open source control plane for running agent factories in production
+- [runkora/kora](https://github.com/runkora/kora) ([v0.11.0-rc.5](https://github.com/runkora/kora/releases/tag/v0.11.0-rc.5), today) - The open source control plane for running agent factories in production
 - [entrhq/stitch](https://github.com/entrhq/stitch) ([v2.0.2](https://github.com/entrhq/stitch/releases/tag/v2.0.2), 10 months ago) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe.
 
 #### Recent pull requests
 
-- [docs: guide and local examples for declarative resources](https://github.com/runkora/kora/pull/768) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(dashboard): show declared items as managed in git and lock authoring](https://github.com/runkora/kora/pull/767) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(operator): project declared resources into their owning services](https://github.com/runkora/kora/pull/766) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(policy-service): declared roles and tenant budgets](https://github.com/runkora/kora/pull/765) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(triggers): declared trigger sources and triggers](https://github.com/runkora/kora/pull/764) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat: add the autofix factory](https://github.com/runkora/examples/pull/3) on [runkora/examples](https://github.com/runkora/examples) (today)
+- [feat(quickstart): add a webhook tunnel so webhook triggers fire locally](https://github.com/runkora/examples/pull/2) on [runkora/examples](https://github.com/runkora/examples) (today)
+- [feat: add the quickstart and the single-tenant and multi-tenant examples](https://github.com/runkora/examples/pull/1) on [runkora/examples](https://github.com/runkora/examples) (today)
+- [docs: title the user-facing pages runkora](https://github.com/runkora/kora/pull/771) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [docs: guide and local examples for declarative resources](https://github.com/runkora/kora/pull/768) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
