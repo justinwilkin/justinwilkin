@@ -2,7 +2,7 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### What I'm working on
 
-- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (1 day ago)
+- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (today)
 - [runkora/examples](https://github.com/runkora/examples) - Examples and agent factories to run on kora (1 week ago)
 
 #### Latest releases I've contributed to
@@ -12,10 +12,10 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Recent pull requests
 
+- [fix(chart): refuse run-prefixed inference gateway paths other than model calls](https://github.com/runkora/kora/pull/954) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [feat(events): forward the acting run through MCP so the loop guards cover agent actions](https://github.com/runkora/kora/pull/949) on [runkora/kora](https://github.com/runkora/kora) (today)
 - [feat(events): add the Events page](https://github.com/runkora/kora/pull/946) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 - [feat(hades): DataTable body state and server search box, and an xl Modal](https://github.com/runkora/kora/pull/945) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 - [feat(triggers): fire triggers on platform events with loop guards](https://github.com/runkora/kora/pull/944) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(test): run the Postgres-backed tests on a kora_test database](https://github.com/runkora/kora/pull/941) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(frontend): restore Storybook 10 addon and renderer so storybook dev starts](https://github.com/runkora/kora/pull/940) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
