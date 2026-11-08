@@ -7,15 +7,15 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Latest releases I've contributed to
 
-- [runkora/kora](https://github.com/runkora/kora) ([v0.12.0-rc.3](https://github.com/runkora/kora/releases/tag/v0.12.0-rc.3), 1 day ago) - The open source control plane for running agent factories in production
+- [runkora/kora](https://github.com/runkora/kora) ([v0.12.0-rc.5](https://github.com/runkora/kora/releases/tag/v0.12.0-rc.5), today) - The open source control plane for running agent factories in production
 - [entrhq/stitch](https://github.com/entrhq/stitch) ([v2.0.2](https://github.com/entrhq/stitch/releases/tag/v2.0.2), 10 months ago) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe.
 
 #### Recent pull requests
 
-- [fix(chart): refuse run-prefixed inference gateway paths other than model calls](https://github.com/runkora/kora/pull/954) on [runkora/kora](https://github.com/runkora/kora) (today)
-- [feat(events): forward the acting run through MCP so the loop guards cover agent actions](https://github.com/runkora/kora/pull/949) on [runkora/kora](https://github.com/runkora/kora) (today)
-- [feat(events): add the Events page](https://github.com/runkora/kora/pull/946) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(hades): DataTable body state and server search box, and an xl Modal](https://github.com/runkora/kora/pull/945) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(triggers): fire triggers on platform events with loop guards](https://github.com/runkora/kora/pull/944) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [chore(check): run only the checks a change touches and cut cold lint time](https://github.com/runkora/kora/pull/972) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [ci: install tools without GitHub releases and cache them](https://github.com/runkora/kora/pull/969) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [feat(events): give every event type a payload schema, and check event triggers against it](https://github.com/runkora/kora/pull/967) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [feat(operator): run sandbox image warmers without sidecars](https://github.com/runkora/kora/pull/966) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [fix(chart): refuse run-prefixed inference gateway paths other than model calls](https://github.com/runkora/kora/pull/954) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
