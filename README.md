@@ -7,15 +7,15 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Latest releases I've contributed to
 
-- [runkora/kora](https://github.com/runkora/kora) ([v0.13.0-rc.4](https://github.com/runkora/kora/releases/tag/v0.13.0-rc.4), 1 day ago) - The open source control plane for running agent factories in production
+- [runkora/kora](https://github.com/runkora/kora) ([v0.13.0-rc.5](https://github.com/runkora/kora/releases/tag/v0.13.0-rc.5), 1 day ago) - The open source control plane for running agent factories in production
 - [entrhq/stitch](https://github.com/entrhq/stitch) ([v2.0.2](https://github.com/entrhq/stitch/releases/tag/v2.0.2), 10 months ago) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe.
 
 #### Recent pull requests
 
-- [FAC-57: Agent replica scaler, Parallel pod management and HPA removal](https://github.com/runkora/kora/pull/1002) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [FAC-56: Start budget follows pod phase](https://github.com/runkora/kora/pull/1001) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [FAC-55: Total cap and watermark placement](https://github.com/runkora/kora/pull/1000) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(agents): record the kind of trigger that started a run](https://github.com/runkora/kora/pull/999) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(runtime-mcp): send no response to JSON-RPC notifications](https://github.com/runkora/kora/pull/998) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat: record message senders, trigger event summaries and budget stops on runs](https://github.com/runkora/kora/pull/1011) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(frontend): the redesigned run page](https://github.com/runkora/kora/pull/1010) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [FAC-59: Local cluster scaling check](https://github.com/runkora/kora/pull/1009) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [docs(run-page): PRD, ADR and Storybook designs for the run page](https://github.com/runkora/kora/pull/1008) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [FAC-57: Agent replica scaler, Parallel pod management and HPA removal](https://github.com/runkora/kora/pull/1002) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
