@@ -7,15 +7,15 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Latest releases I've contributed to
 
-- [runkora/kora](https://github.com/runkora/kora) ([v0.13.0-rc.6](https://github.com/runkora/kora/releases/tag/v0.13.0-rc.6), 2 days ago) - The open source control plane for running agent factories in production
+- [runkora/kora](https://github.com/runkora/kora) ([v0.13.0-rc.6](https://github.com/runkora/kora/releases/tag/v0.13.0-rc.6), 4 days ago) - The open source control plane for running agent factories in production
 - [entrhq/stitch](https://github.com/entrhq/stitch) ([v2.0.2](https://github.com/entrhq/stitch/releases/tag/v2.0.2), 11 months ago) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe.
 
 #### Recent pull requests
 
-- [fix(identity): publish identity&#39;s routes so the edge admits its API](https://github.com/runkora/kora/pull/1036) on [runkora/kora](https://github.com/runkora/kora) (today)
-- [fix(githubapp): deny requests the classifier does not recognize](https://github.com/runkora/kora/pull/1033) on [runkora/kora](https://github.com/runkora/kora) (today)
-- [fix(policy): limit the delegator requires projection to MCP tool scopes](https://github.com/runkora/kora/pull/1032) on [runkora/kora](https://github.com/runkora/kora) (today)
-- [fix(githubapp): qualify node-id and repository-id requests by their resolved repository](https://github.com/runkora/kora/pull/1031) on [runkora/kora](https://github.com/runkora/kora) (today)
-- [fix(githubapp): classify the gh routes and GraphQL fields per-repository grants miss](https://github.com/runkora/kora/pull/1029) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [fix(identity): publish identity&#39;s routes so the edge admits its API](https://github.com/runkora/kora/pull/1036) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
+- [fix(githubapp): deny requests the classifier does not recognize](https://github.com/runkora/kora/pull/1033) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
+- [fix(policy): limit the delegator requires projection to MCP tool scopes](https://github.com/runkora/kora/pull/1032) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
+- [fix(githubapp): qualify node-id and repository-id requests by their resolved repository](https://github.com/runkora/kora/pull/1031) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
+- [fix(githubapp): classify GitHub REST by GitHub&#39;s published permission data](https://github.com/runkora/kora/pull/1029) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
