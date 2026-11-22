@@ -7,15 +7,14 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Latest releases I've contributed to
 
-- [runkora/kora](https://github.com/runkora/kora) ([v0.13.0-rc.8](https://github.com/runkora/kora/releases/tag/v0.13.0-rc.8), 1 day ago) - The open source control plane for running agent factories in production
 - [entrhq/stitch](https://github.com/entrhq/stitch) ([v2.0.2](https://github.com/entrhq/stitch/releases/tag/v2.0.2), 11 months ago) - A lightweight, SwiftUI inspired dependency injection (DI) library that is compile time safe.
 
 #### Recent pull requests
 
-- [feat(frontend): show Grader results on the run rail, the Grades tab and the Grader page](https://github.com/runkora/kora/pull/1064) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
-- [feat(agents): read run grades, Grader summaries and Grader detail, and filter runs by grade](https://github.com/runkora/kora/pull/1063) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
-- [feat(agents): grade ended runs with each Grader of their agent](https://github.com/runkora/kora/pull/1062) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
-- [feat(inference): make the System One call usable for grading](https://github.com/runkora/kora/pull/1059) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
-- [feat(graders): add the Grader kind, its projection and storage](https://github.com/runkora/kora/pull/1055) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
+- [perf(agents): read the scaler&#39;s StatefulSets and pods from an informer cache and check agents in parallel](https://github.com/runkora/kora/pull/1078) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [fix(chart): keep tenant Services out of kora-system Istio proxies](https://github.com/runkora/kora/pull/1076) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [fix(operator): scope the sandbox Istio proxy to the services it calls](https://github.com/runkora/kora/pull/1075) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [fix(agents): count only live pods toward the floor and keep a Ready pod through an eviction](https://github.com/runkora/kora/pull/1074) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [fix(agents): retry the budget, Service and ServiceAccount updates on a conflict](https://github.com/runkora/kora/pull/1073) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
