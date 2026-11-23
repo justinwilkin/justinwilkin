@@ -11,10 +11,10 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Recent pull requests
 
-- [perf(agents): read the scaler&#39;s StatefulSets and pods from an informer cache and check agents in parallel](https://github.com/runkora/kora/pull/1078) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(chart): keep tenant Services out of kora-system Istio proxies](https://github.com/runkora/kora/pull/1076) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(operator): scope the sandbox Istio proxy to the services it calls](https://github.com/runkora/kora/pull/1075) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(agents): count only live pods toward the floor and keep a Ready pod through an eviction](https://github.com/runkora/kora/pull/1074) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(agents): retry the budget, Service and ServiceAccount updates on a conflict](https://github.com/runkora/kora/pull/1073) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(agents): shrink idle agent pods in place and grow them before a run](https://github.com/runkora/kora/pull/1088) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(agents): keep a pool of unbound session-manager pods in each tenant](https://github.com/runkora/kora/pull/1086) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(agents): call session-managers at the pod IP with the agent Service as Host](https://github.com/runkora/kora/pull/1085) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(chart): let only kora-agents set a pod&#39;s agent label, once, as the pod leaves the pool](https://github.com/runkora/kora/pull/1084) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(identity-proxy): serve a pool pod with no token until it is bound to an agent](https://github.com/runkora/kora/pull/1082) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
