@@ -2,7 +2,7 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### What I'm working on
 
-- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (1 day ago)
+- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (today)
 - [runkora/examples](https://github.com/runkora/examples) - Examples and agent factories to run on kora (3 weeks ago)
 
 #### Latest releases I've contributed to
@@ -11,10 +11,10 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Recent pull requests
 
-- [feat(agents): shrink idle agent pods in place and grow them before a run](https://github.com/runkora/kora/pull/1088) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(agents): keep a pool of unbound session-manager pods in each tenant](https://github.com/runkora/kora/pull/1086) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(agents): call session-managers at the pod IP with the agent Service as Host](https://github.com/runkora/kora/pull/1085) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(chart): let only kora-agents set a pod&#39;s agent label, once, as the pod leaves the pool](https://github.com/runkora/kora/pull/1084) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(identity-proxy): serve a pool pod with no token until it is bound to an agent](https://github.com/runkora/kora/pull/1082) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [fix(operator): pin kora-identity&#39;s SAN for every pod in a tenant namespace](https://github.com/runkora/kora/pull/1099) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [feat(triggers): attribution on generic webhook sources](https://github.com/runkora/kora/pull/1097) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(console): attribution on generic webhook sources](https://github.com/runkora/kora/pull/1096) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(triggers): wake a scheduled trigger&#39;s agent before each fire](https://github.com/runkora/kora/pull/1093) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(agents): delete an idle agent&#39;s pods after coldAfterSecs and wake it on a pool pod at its next run](https://github.com/runkora/kora/pull/1092) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
