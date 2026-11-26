@@ -2,7 +2,7 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### What I'm working on
 
-- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (1 day ago)
+- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (today)
 - [runkora/examples](https://github.com/runkora/examples) - Examples and agent factories to run on kora (3 weeks ago)
 
 #### Latest releases I've contributed to
@@ -11,10 +11,10 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Recent pull requests
 
-- [docs(adr): align the busy-pod budget wording with the code](https://github.com/runkora/kora/pull/1104) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(agents): protect an agent pod from eviction only while a run holds it](https://github.com/runkora/kora/pull/1101) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [docs(adr): protect agent pods from eviction only while a run holds them](https://github.com/runkora/kora/pull/1100) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [fix(operator): pin kora-identity&#39;s SAN for every pod in a tenant namespace](https://github.com/runkora/kora/pull/1099) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(triggers): attribution on generic webhook sources](https://github.com/runkora/kora/pull/1097) on [runkora/kora](https://github.com/runkora/kora) (2 days ago)
+- [feat(console): Runs tab with live updates in place of Dashboard](https://github.com/runkora/kora/pull/1114) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(agents): live run list stream, GET /api/v1/runs/stream](https://github.com/runkora/kora/pull/1113) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(events): let kora-agents read run events on the internal stream](https://github.com/runkora/kora/pull/1112) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(agents): run list filters and placed, resumed and summarized run events](https://github.com/runkora/kora/pull/1111) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [docs: Runs tab PRD and runs list live stream ADR](https://github.com/runkora/kora/pull/1110) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
