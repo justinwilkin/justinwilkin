@@ -3,7 +3,7 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 #### What I'm working on
 
 - [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (today)
-- [runkora/examples](https://github.com/runkora/examples) - Examples and agent factories to run on kora (3 weeks ago)
+- [runkora/examples](https://github.com/runkora/examples) - Examples and agent factories to run on kora (4 weeks ago)
 
 #### Latest releases I've contributed to
 
@@ -11,10 +11,10 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Recent pull requests
 
-- [feat(console): Runs tab with live updates in place of Dashboard](https://github.com/runkora/kora/pull/1114) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(agents): live run list stream, GET /api/v1/runs/stream](https://github.com/runkora/kora/pull/1113) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(events): let kora-agents read run events on the internal stream](https://github.com/runkora/kora/pull/1112) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [feat(agents): run list filters and placed, resumed and summarized run events](https://github.com/runkora/kora/pull/1111) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [docs: Runs tab PRD and runs list live stream ADR](https://github.com/runkora/kora/pull/1110) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [perf(console): prefetch sidebar routes on intent, not on render](https://github.com/runkora/kora/pull/1125) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [perf(console): draw the first runs page before the stream opens](https://github.com/runkora/kora/pull/1124) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [perf(agents): check the edit ceiling by set lookup](https://github.com/runkora/kora/pull/1123) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [perf(policy): index role scopes and find covering scopes by set lookup](https://github.com/runkora/kora/pull/1122) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [docs(adr): amend the grants index and runs stream ADRs for console load times](https://github.com/runkora/kora/pull/1121) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
