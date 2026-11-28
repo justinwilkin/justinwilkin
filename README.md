@@ -2,7 +2,7 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### What I'm working on
 
-- [runkora/kora](https://github.com/runkora/kora) - The open source control plane for running agent factories in production (today)
+- [runkora/kora](https://github.com/runkora/kora) - Run a software factory on your own Kubernetes cluster. The open source control plane for agent factories. (1 day ago)
 - [runkora/examples](https://github.com/runkora/examples) - Examples and agent factories to run on kora (4 weeks ago)
 
 #### Latest releases I've contributed to
@@ -11,10 +11,9 @@ Hey 👋 I'm Justin. I lead engineering at [runkora](https://runkora.io), where 
 
 #### Recent pull requests
 
-- [perf(console): prefetch sidebar routes on intent, not on render](https://github.com/runkora/kora/pull/1125) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [perf(console): draw the first runs page before the stream opens](https://github.com/runkora/kora/pull/1124) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [perf(agents): check the edit ceiling by set lookup](https://github.com/runkora/kora/pull/1123) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [perf(policy): index role scopes and find covering scopes by set lookup](https://github.com/runkora/kora/pull/1122) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
-- [docs(adr): amend the grants index and runs stream ADRs for console load times](https://github.com/runkora/kora/pull/1121) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [fix(inferencegw): refresh catalog before registering model scopes](https://github.com/runkora/kora/pull/1134) on [runkora/kora](https://github.com/runkora/kora) (today)
+- [fix(build): declare GH_STACK_VERSION in docker-bake.hcl](https://github.com/runkora/kora/pull/1131) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [feat(sandbox): add the gh stack extension to kora-sandbox-dev](https://github.com/runkora/kora/pull/1128) on [runkora/kora](https://github.com/runkora/kora) (1 day ago)
+- [docs(quickstart): fix stale steps in the skill and note the kubectl context](https://github.com/runkora/examples/pull/8) on [runkora/examples](https://github.com/runkora/examples) (1 day ago)
 
 Generated with [readme-scribe](https://github.com/muesli/readme-scribe).
